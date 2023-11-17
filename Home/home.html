@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <script type="module" src="script.js" defer></script>
+    <script type="module" src="cart.js" defer></script>
+    <title>Projeto E-commerce</title>
+</head>
+<body>
+    <div id="home">
+        <header>
+
+            <div class="logoHeader">
+                <a href=""><img src="/imagens/Logo.png" id="logo"></a>
+            </div>  
+
+                <nav class="navBar">
+                        <a href="/Home/home.html" target="_self">Home</a>
+                        <a href="/Contato/contato.html" target="_self">Contato</a>
+                        <a href="https://www.instagram.com/rafael.taves/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">Instagram</a>
+                        <a href="/Informações gerais/info.html" target="_self">Informações Gerais</a>
+                </nav>
+
+                <div class="topIcons">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+
+                  <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+                        
+                    <!--Modal Registro-->
+                    <button class="modal-btn"><a href=""><i class="fa-solid fa-user"></i></a></button> 
+                </div>   
+        </header>
+        <div class="slider"> <!--SLIDER-->
+
+            <div class="slide active">
+
+              <img src="/imagens/slider1.png" alt="">
+              <div class="info">
+                <a href="#conteudo"><button class="botao-slide"><p class="letra-botao">COMPRE AGORA!</p></button></a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="/imagens/slider2.png" alt="">
+              <div class="info">
+                <a href="#conteudo"><button class="botao-slide"><p class="letra-botao">COMPRE AGORA!</p></button></a>
+              </div>
+            </div>
+
+            <div class="slide">
+              <img src="/imagens/slider3.jpg" alt="">
+              <div class="info">
+                <a href="#conteudo"><button class="botao-slide"><p class="letra-botao">COMPRE AGORA!</p></button></a>
+              </div>
+            </div>
+            
+            <div class="navigation">
+              <i class="fas fa-chevron-left prev-btn"></i>
+              <i class="fas fa-chevron-right next-btn"></i>
+            </div>
+
+            <div class="navigation-visibility">
+              <div class="slide-icon active"></div>
+              <div class="slide-icon"></div>
+              <div class="slide-icon"></div>
+            </div>
+          </div>
+            
+            
+            <div id="conteudo"> <!--Produtos do Site-->
+
+                <div id="primeira-linha">
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="/imagens/palmangels-1.jpeg" data-titulo="Camisa Palm Angels Black"><img src="/imagens/palmangels-1.jpeg"></button>
+                    </div>
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="/imagens/palmangels-3.jpeg" data-titulo="Camisa Palm Angels White"><img src="/imagens/palmangels-3.jpeg"></button>
+                    </div>
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="/imagens/offwhite-1.jpeg" data-titulo="Camisa Off Withe Black"><img src="/imagens/offwhite-1.jpeg"></button>
+                    </div>
+                    <div class="box">
+                      <button class="compra-btn" data-imagem="/imagens/offwhite-2.jpeg" data-titulo="Camisa Off White White"><img src="/imagens/offwhite-2.jpeg"></button>
+                    </div>
+
+                </div>
+
+                <div class="legenda">
+                  <p>Camisa Palm Angels Black<br>R$ 1499,00</p>
+                  <p>Camisa Palm Angels White<br>R$ 1499,00</p>
+                  <p>Camisa Off Withe Black<br>R$ 1899,00</p>
+                  <p>Camisa Off White White<br>R$ 1899,00</p>
+                </div>
+
+                <div class="molduras">
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/shortEssentials-white.jpeg" data-titulo="Short Essentials White"><img src="/imagens/shortEssentials-white.jpeg"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/ShortEssentialsCreme.jpeg" data-titulo="Short Essentials Creme"><img src="/imagens/ShortEssentialsCreme.jpeg"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/ShortEssentialsPreto.jpg" data-titulo="Short Essentials Black"><img src="/imagens/ShortEssentialsPreto.jpg"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/BlusaTedBear.jpg" data-titulo="Camisa Ted Bear Black"><img src="/imagens/BlusaTedBear.jpg"></button>
+                  </div>
+
+                </div>
+                <div class="legenda">
+                  <p>Short Essentials White<br>R$ 890,00</p>
+                  <p>Short Essentials Creme<br>R$ 890,00</p>
+                  <p>Short Essentials Black<br>R$ 890,00</p>
+                  <p>Camisa Ted Bear Black<br>R$ 1499,00</p>
+                </div>
+
+                <div class="molduras">
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/CamsiaVlone.jpg" data-titulo="Camisa Vlone Black"><img src="/imagens/CamsiaVlone.jpg"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/OffWhiteSpray.jpg" data-titulo="Camisa Off White Spray Here"><img src="/imagens/OffWhiteSpray.jpg"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/sprayrosa.jpg" data-titulo="Camisa Spray Pink White"><img src="/imagens/sprayrosa.jpg"></button>
+                  </div>
+                  <div class="box">
+                    <button class="compra-btn" data-imagem="/imagens/killbear.jpg" data-titulo="Camisa Kill Bear White"><img src="/imagens/killbear.jpg"></button>
+                  </div>
+
+                </div>
+
+                <div class="legenda">
+                  <p>Camisa Vlone Black<br>R$ 1499,00</p>
+                  <p>Camisa Off White Spray Here<br>R$ 2199,00</p>
+                  <p>Camisa Spray Pink White<br>R$ 1499,00</p>
+                  <p>Camisa Kill Bear White<br>R$ 1499,00</p>
+                </div>
+
+            </div>
+
+        </div><!--Produtos do Site-->
+    <div id="footer">
+      <div class="bottom-icons">
+        <a href="https://www.instagram.com/rafael.taves/"></a><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="info-footer">
+        <p>rarehype2023@gmail.com</p>
+        <p>(21)94002-8922</p>
+        <p>CNPJ 00.584.095/0001-38</p>
+      </div>
+      <div class="name-footer">
+        <p>Tavex - Tecnologia em Front-End</p>
+      </div>
+    </div><!--Fecha footer-->
+
+    <!--Modal Registro-->
+    <div class="modal-bg">
+      <div class="modal">
+        <h2>Cadastre-se</h2>
+        <label for="name">Nome: </label>
+        <input type="text" name="nome-r">
+        <label for="email-r">Email: </label>
+        <input type="email" name="email-r">
+        <label for="Senha:">Senha: </label>
+        <input type="password" name="senha-r">
+        <button id="registro-btn">Enviar</button>
+        <span class="modal-close">X</span>
+      </div>
+    </div>
+
+    <!--Modal Compra-->
+    <dialog class="dialog-compra">
+      <div class="compra-bg">
+
+        <div class="compra-modal">
+
+          <div class="img-compra">
+            <img id="modal-imagem" src="/imagens/palmangels-1.jpeg" alt="">
+          </div>
+
+          <div class="conteudo-compra">
+            <h2 class="h2-compra" id="modal-titulo">Camisa Palm Angels Black</h2>
+
+            <p class="p-compra">Confecionada 100% algodão, nossa t-shirt conta com o material da melhor qualidade existente. Atenção! Este produto pode ter alteração no tempo de envio para algumas regiões. Atente-se ao prazo estipulado durante a sua simulação.</p>
+
+            <div class="tamanho">
+
+              <div class="p">
+                <input type="radio" name="tamanho" value="P" id="tamanho-p" checked>
+                <label for="tamanho-p">P</label>
+              </div>
+
+              <div class="m">
+                <input type="radio" name="tamanho" value="M" id="tamanho-m">
+                <label for="tamanho-m">M</label>
+              </div>
+              
+              <div class="g">
+                <input type="radio" name="tamanho" value="G" id="tamanho-g">
+                <label for="tamanho-g">G</label>
+              </div>  
+
+              <div class="gg">
+                <input type="radio" name="tamanho" value="GG" id="tamanho-gg">
+                <label for="tamanho-gg">GG</label>
+              </div>
+            </div>
+
+            <div class="quantidade">
+              <span class="menos">-</span>
+              <span class="num">01</span>
+              <span class="mais">+</span>
+            </div> 
+            
+            <button id="addcart-btn">Adicionar ao carrinho</button>
+
+            <span class="compra-close">X</span>
+          </div>  
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="dialog-cart">
+      <div class="cart-bg">
+        <div class="cart-modal">
+          <div class="cart-titulo">
+            <h3>Carrinho de compras</h3>
+          </div>
+          <span class="cart-vazio" id="aviso-span">Seu carrinho está vazio</span>
+          <span class="cart-close">X</span>
+
+          <div class="infoCartVazio" id="infoCart">
+            <div class="img-cart">
+              <img id="cart-imagem" src="/imagens/palmangels-1.jpeg" alt="">
+            </div>
+            <div class="info-cart">
+              <h4 id="cart-titulo">Camiseta Palm Angels Black</h4>
+              <div class="cart-quantidade">
+                <span class="menos">-</span>
+                <span class="num">01</span>
+                <span class="mais">+</span>
+              </div> 
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </dialog>
+
+</body>
+</html>
